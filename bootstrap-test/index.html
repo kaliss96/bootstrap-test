@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>bootstrap-test</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- jQuery library -->
+  <script type="text/javascript" src="assets/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script type="text/javascript" src="assets/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='css/style.css'>
+  <link rel='stylesheet' href='css/myMenu.css'>
+</head>
+
+  <body>
+    <div class="container py-5">
+      <header class="text-center text-white py-5">
+        <div style="background: url('img/banner.jpg')" class="page-holder bg-cover">
+          <div class="center-contents">
+            <a class="logo" href="#" title=""><img src="images/logo-example.png" alt=""></a>
+            <nav class="page-nav">
+              <ul>
+                <li><a href="#" title="">Home</a></li>
+                <li><a href="#" title="">OurServices</a></li>
+                <li><a href="#" title="">Testimoials</a></li>
+                <li><a href="#" title="">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <h1 class="display-4 font-weight-bold mb-4">Bootstrap Test</h1>
+          <p class="lead mb-0">We can help you take your next idea from concept to shipping</p>
+          <p class="font-italic">using the latest technologies available</p>
+        </div>
+      </header>
+    </div>
+    
+    <section class='ftco-section bg-light'>
+      <div class='container'>
+        <div class='row justify-content-center pb-5 mb-3'>
+          <div class='col-md-7 heading-section text-center'>
+            <h2>Latest Post</h2>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4 ftco-animate fadeInUp ftco-animated'>
+            <div class='block-7'>
+              <div class='img' style='background-image: url("img/one.jpg");'></div>
+              <div class='text-center p-4'>
+                <span class='excerpt d-block'>How to Find Great</span>
+                <span class='excerpt d-block'>Places to Work From</span>
+                <span class='excerpt d-block'>While Travelling</span>
+                <br>
+                <p>He seems sinking under the</p>
+                <p>evidence could not only grieve and</p>
+                <a href='#' class='btn btn-primary d-block px-2 py-3'>Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-4 ftco-animate fadeInUp ftco-animated'>
+            <div class='block-7'>
+              <div class='img' style='background-image: url("img/cell.jpg");'></div>
+              <div class='text-center p-4'>
+                <span class='excerpt d-block'>Quick Tips for</span>
+                <span class='excerpt d-block'>Improving Your</span>
+                <span class='excerpt d-block'>Website's Design</span>
+                <br>
+                <p>He seems sinking under the</p>
+                <p>evidence could not only grieve and</p>
+                <a href='#' class='btn btn-primary d-block px-2 py-3'>Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-4 ftco-animate fadeInUp ftco-animated'>
+            <div class='block-7'>
+              <div class='img' style='background-image: url("img/surf.jpg");'></div>
+              <div class='text-center p-4'>
+                <span class='excerpt d-block'>A Designer's Tips</span>
+                <br>
+                <br>
+                <br>
+                <p>He seems sinking under the</p>
+                <p>evidence could not only grieve and</p>
+                <a href='#' class='btn btn-primary d-block px-2 py-3'>Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section: Contact v.2-->
+    <section class="mb-4" style="background-color:#0a87ea">
+
+        <br>
+        <!--Section heading-->
+        <h2 class="h1-responsive text-center text-white">Contact us</h2>
+         
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6 offset-3">
+                <form id="contact-form" style="background-color:white" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+                  <div class='form-group col-md-6'>
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                      <div class="md-form">
+                        <label>Full Namne</label>
+                        <input type="text" id="name" name="name" placeholder='your Name Here!!' class="form-control">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class='form-group col-md-6'>
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                      <div class="md-form">
+                        <label>Email Address</label>
+                        <input type="text" id="email" name="email" placeholder='your Email Here!!' class="form-control">
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+      
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class='form-group col-md-12'>
+                      <div class="col-md-12">
+
+                      <div class="md-form">
+                        <label>Your Message</label>
+                        <textarea type="text" id="message" name="message" placeholder='Your Message Here!!' rows='7' class="form-control md-textarea"></textarea>
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Grid row-->
+                  <div class="text-center text-md-center">
+                    <button type='submit' class="btn btn-primary btn-lg" onclick="document.getElementById('contact-form').submit();">Send Message</button>
+                  </div>
+                <br>
+                </form>
+
+                <br>
+              
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <!--Grid column-->
+
+        </div>
+        <footer class='bg-dark'>
+          <div class="container">
+            <div class="row">
+              <div class="col text-white">
+                Bombit Agency
+              </div>
+              <div class="col text-white">
+               Home
+              </div>
+              <div class="col text-white">
+                OurServices
+              </div>
+              <div class="col text-white">
+               Testimonials
+              </div>
+              <div class="col text-white">
+                Contact
+              </div>
+            </div>
+          </div>
+          <!-- /.container -->
+        </footer>
+    </section>
+    <!--Section: Contact v.2-->
+
+    <!-- Footer -->
+    <script src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js'></script>
+  </body>
+</html>
